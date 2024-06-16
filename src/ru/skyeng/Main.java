@@ -62,17 +62,4 @@ public class Main {
         System.out.println("Продуктов в одной машине теперь " + productsInOneCar );
 
 
-
-
-
-
-    }
-        public static void main2(String[] args) {
-            System.out.println("Проверка");
-            System.out.println( "Еще одна попытка ");
-            System.out.println( " english language is ok");
-
-
-    }
-
 }
