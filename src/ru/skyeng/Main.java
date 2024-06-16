@@ -25,17 +25,17 @@ public class Main {
         System.out.println("a * b =" + result2);
         var name = "Diana";
         var age = 29;
-        System.out.println("Меня зовут" + name + "и мне" + age + " лет");
+        System.out.println("РњРµРЅСЏ Р·РѕРІСѓС‚" + name + "Рё РјРЅРµ" + age + " Р»РµС‚");
 
         var liftingCapacity = 50;
         var stuffWeight = 20;
         var capacityLeft = liftingCapacity - stuffWeight;
-        System.out.println("Еще можно положить" + capacityLeft + " кг вещей");
+        System.out.println("Р•С‰Рµ РјРѕР¶РЅРѕ РїРѕР»РѕР¶РёС‚СЊ" + capacityLeft + " РєРі РІРµС‰РµР№");
 
         var appleWeight = 2;
         var orangesWeight = 3;
         var fruitWeight = appleWeight + orangesWeight;
-        System.out.println(" Общий вес фруктов" + fruitWeight);
+        System.out.println(" РћР±С‰РёР№ РІРµСЃ С„СЂСѓРєС‚РѕРІ" + fruitWeight);
 
         var meatWeight = 4;
         var waterWeight = 5;
@@ -45,21 +45,21 @@ public class Main {
         var zucchiniWeight = 2;
         var vegetablesWeight = tomatoesWeight + cucumbersWeight + peppersWeight + zucchiniWeight;
         var productsWeight = fruitWeight + vegetablesWeight + meatWeight + waterWeight;
-        System.out.println("Общий вес продуктов" + productsWeight + "кг!");
+        System.out.println("РћР±С‰РёР№ РІРµСЃ РїСЂРѕРґСѓРєС‚РѕРІ" + productsWeight + "РєРі!");
 
         var leftWeight = liftingCapacity - stuffWeight - productsWeight;
-        System.out.println("Места осталось" + leftWeight + " кг!");
+        System.out.println("РњРµСЃС‚Р° РѕСЃС‚Р°Р»РѕСЃСЊ" + leftWeight + " РєРі!");
 
         productsWeight = productsWeight * 2;
-        System.out.println("Теперь вес продуктов" + productsWeight);
+        System.out.println("РўРµРїРµСЂСЊ РІРµСЃ РїСЂРѕРґСѓРєС‚РѕРІ" + productsWeight);
         leftWeight = liftingCapacity - stuffWeight - productsWeight;
-        System.out.println("Теперь места осталось" + leftWeight + "кг !");
+        System.out.println("РўРµРїРµСЂСЊ РјРµСЃС‚Р° РѕСЃС‚Р°Р»РѕСЃСЊ" + leftWeight + "РєРі !");
 
         var overload = (stuffWeight + productsWeight) % liftingCapacity;
-        System.out.println("Перегруз на" + overload + "кг !" );
+        System.out.println("РџРµСЂРµРіСЂСѓР· РЅР°" + overload + "РєРі !" );
 
         var productsInOneCar = productsWeight / 2;
-        System.out.println("Продуктов в одной машине теперь " + productsInOneCar );
+        System.out.println("РџСЂРѕРґСѓРєС‚РѕРІ РІ РѕРґРЅРѕР№ РјР°С€РёРЅРµ С‚РµРїРµСЂСЊ " + productsInOneCar );
 
 
 
@@ -68,8 +68,8 @@ public class Main {
 
     }
         public static void main2(String[] args) {
-            System.out.println("Проверка");
-            System.out.println( "Еще одна попытка ");
+            System.out.println("РџСЂРѕРІРµСЂРєР°");
+            System.out.println( "Р•С‰Рµ РѕРґРЅР° РїРѕРїС‹С‚РєР° ");
             System.out.println( " english language is ok");
 
 
