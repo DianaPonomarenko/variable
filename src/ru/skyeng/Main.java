@@ -56,10 +56,151 @@ public class Main {
         System.out.println("Теперь места осталось" + leftWeight + "кг !");
 
         var overload = (stuffWeight + productsWeight) % liftingCapacity;
-        System.out.println("Перегруз на" + overload + "кг !" );
+        System.out.println("Перегруз на" + overload + "кг !");
 
         var productsInOneCar = productsWeight / 2;
-        System.out.println("Продуктов в одной машине теперь " + productsInOneCar );
+        System.out.println("Продуктов в одной машине теперь " + productsInOneCar);
 
 
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+
+        var dog2 = dog-3.5;
+        System.out.println(dog2);
+        var cat2 = cat -1.6;
+        System.out.println(cat2);
+        var paper2 = paper - 7639;
+        System.out.println(paper2);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        var boxerWeight1 = 78.2;
+        var boxerWeight2 = 82.7;
+        var boxerWeight = boxerWeight1 + boxerWeight2;
+        System.out.println("Общая масса бойцов " + boxerWeight + "кг!");
+        var weightDifference = boxerWeight2 - boxerWeight1;
+        System.out.println("Разница в весе " + weightDifference + "кг!");
+
+        var weightDifference2 = boxerWeight2 % boxerWeight1;
+        System.out.println(  "Остаток от деления " + weightDifference2  );
+
+        var totaltime = 640;
+        var time = 8;
+        var employeeInCompany = totaltime / time;
+        System.out.println("Всего работников в компании " + employeeInCompany + " человек!" );
+        var employeeInCompany2 = employeeInCompany + 94;
+        System.out.println("Если в компании работает на 94 чел больше " + employeeInCompany2 + " человек!");
+        var totaltime2 = employeeInCompany2 * 8;
+        System.out.println("Если в компании работает 174 человек то " + totaltime2 + " часов работы может быть поделено между сотрудниками ! ");
+
+        short bananas = 200;
+        System.out.println("Бананов " + bananas + " кг");
+
+        float sugar = 3;
+        float onePortion = sugar / 4;
+        System.out.println("Одна порция сахара весит " + onePortion + " кг");
+
+        byte a1 = 1;
+        short b1 = 1;
+        int c1 = 1;
+        int d = a1 + b1 + c1;
+         System.out.println(d);
+
+         float g1 = a1 + 1f;
+         System.out.println(g1);
+
+         int a2 = 1;
+         byte b2 = 10;
+         float  c2 = 4.57f;
+         System.out.println(a2);
+         System.out.println(b2);
+         System.out.println(c2);
+
+         float a3 = 27.12f;
+         long b3 = 9876789554L;
+         float c3 = 2.786f;
+         int v2 = 569;
+         short g2 = -159;
+         short h3 = 27897;
+         byte f2 = 67;
+        System.out.println(a3);
+        System.out.println(b3);
+        System.out.println(c3);
+        System.out.println(v2);
+        System.out.println(g2);
+        System.out.println(h3);
+        System.out.println(f2);
+
+        byte LP = 23 * 3;
+        System.out.println("У Людмилы Павловны " + LP+  " учеников" );
+        byte AS = 27 * 3;
+        System.out.println("У Анны Сергеевны " + AS +  " учеников" );
+        byte  EA = 30 * 3;
+        System.out.println("У Екатерины Андреевны " + EA +  " учеников"  );
+        int totalStudents= LP + AS + EA;
+        System.out.println("Всего учеников " + totalStudents );
+        int totalSheetsOfPaper = 480;
+        System.out.println("Всего листов бумаги " + totalSheetsOfPaper + " листов");
+        float numberOfSheetsOfPaperForEachStudent = totalSheetsOfPaper / totalStudents ;
+        System.out.println("Количество листов бумаги на каждого ученика по " + numberOfSheetsOfPaperForEachStudent +" Шт");
+
+        byte machinePerformanceInOneMinutes = 16 / 2;
+        System.out.println("Производительность машины за одну минуты " + machinePerformanceInOneMinutes + " шт.бутылок");
+        int machinePerformanceInTwentyMinutes = machinePerformanceInOneMinutes * 20;
+        System.out.println("Производительность машины за 20 минуты " + machinePerformanceInTwentyMinutes + " шт.бутылок" );
+        int machinePerformanceForDay = machinePerformanceInOneMinutes * 1440;
+        System.out.println("Производительность машины за сутки " + machinePerformanceForDay + " шт. бутылок");
+        int machinePerformanceFor3Day = machinePerformanceForDay * 3;
+        System.out.println("Производительность машины за 3 дня " + machinePerformanceFor3Day+ " шт. бутылок");
+        int  machinePerformanceForMonth = machinePerformanceFor3Day * 10;
+        System.out.println("Производительность машины за месяц " + machinePerformanceForMonth+ " шт. бутылок");
+
+        int totalCans = 120;
+        System.out.println("Всего банок " + totalCans + " нужно для школы");
+        byte cansOfWhitePaintForOneClass = 2;
+        System.out.println( "Для одного класса понадобиться " + cansOfWhitePaintForOneClass + " банки с белой краской");
+        byte cansOfBrownPaintForOneClass = 4;
+        System.out.println( "Для одного класса понадобиться " + cansOfBrownPaintForOneClass + " банки с коричневой краской");
+        int totalCansOneClass = cansOfWhitePaintForOneClass + cansOfBrownPaintForOneClass;
+        System.out.println("Для одного класса понадобиться " + totalCansOneClass  + " банок с краской");
+        int totalClasses = totalCans / totalCansOneClass;
+        System.out.println("Всего классов " + totalClasses);
+        int totalBrownСans = totalClasses * cansOfBrownPaintForOneClass;
+        System.out.println("В школе, где 20 классов нужном " + totalBrownСans + " банок с коричневой краской");
+        int totalWhiteСans = totalClasses * cansOfWhitePaintForOneClass;
+        System.out.println("В школе, где 20 классов нужном " + totalWhiteСans + " банок с белой краской");
+
+
+
+
+
+
+
+
+
+    }
 }
