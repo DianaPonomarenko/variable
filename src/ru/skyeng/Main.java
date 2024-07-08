@@ -245,7 +245,7 @@ public class Main {
         double salaryEmployeesYear2 = salaryResult + salaryResult2 + salaryResult3;
         System.out.println("Зарплата всех сотрудников с надбавкой " + salaryEmployeesYear  + " руб. в год" );
         double salaryDifference = salaryEmployeesYear2 - salaryEmployeesYear;
-        System.out.println("годовой доход всех сотрудников вырос на " + salaryEmployeesYear  + " руб. в год" );
+        System.out.println("годовой доход всех сотрудников вырос на " + salaryDifference  + " руб. в год" );
 
     }
 }
